@@ -1,33 +1,37 @@
 # PyGNSS-SDR
 
-# Getting Started
+## Getting Started
 
 Este repositorio contiene una herramienta de software desarrollada en python que implementa un bloque de adquisición para señales GPS obtenidas mediante un dispositivo SDR.
+
 Fue desarrollado como Trabajo de graduacion de la carrera Ingenieria Electronica en la Universidad Nacional de Tucuman en el año 2021 bajo la orbita del Laboratorio de Telecomunicaciones de dicha institucion.
+
 En el informe puede encontrar el detalle completo del trabajo realizado.
 Seguramente pueden mejorarse muchas cosas, esta es la primera version publica de este trabajo.
 
+
 Autor: Ing. Lucas Castillo Delacroix  (lucas.castillo.delacroix@gmail.com)
+
 Direccion: Dr. Ing. Mariano Fagre     (mfagre@herrera.unt.edu.ar)  
 
 
-# Installation
+## Installation
 
-0. instalarlo con pip y verifica la instalación
+0. Instalar virtualenv
 
     pip install virtualenv
 
     virtualenv --version
 
-1. Cree un entorno virtual.
+1. Crear un entorno virtual.
 
     virtualenv --python=/usr/bin/python3 my-env         # Create a virtual environment
     
-2. Active el entorno virtual.
+2. Activar el entorno virtual.
 
     source my-env/bin/activate                          # Activate the virtual environment 
 
-3. Instale las dependencias.
+3. Instalar las dependencias.
 
     pip install -r requirements.txt                     # Install the dependencies
 
@@ -42,7 +46,7 @@ Direccion: Dr. Ing. Mariano Fagre     (mfagre@herrera.unt.edu.ar)
 
 
 
-# Running the PyGNSS-SDR
+## Running the PyGNSS-SDR
 
 1. Situarse sobre la carpeta del proyecto y ejecutar ./menu.py
 (Si tiene problemas de permiso para ello, debe darle permisos al SO para ejecutarlo de esa manera con el comando: chmod +x menu.py)
@@ -64,6 +68,6 @@ Del siguiente link (https://mega.nz/folder/xmQSQLgb#m9kiAv4NpG_h22O3mr6Nbw) se p
     * Satelites presents: 2,12,25,29
 
 
-# Notes
+## Notes
 
 Si se desea ampliar el conocimiento en el tema, se recomienda visitar la pagina del proyecto GNSS-SDR (https://gnss-sdr.org/) que fue de gran ayuda para mi, especialmente la colaboracion del Dr. Carles Fernández Prades.
