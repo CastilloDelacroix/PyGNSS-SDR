@@ -3,6 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# VScode
+.vscode/*
+
+# Recorded files
+*.dat
+*.bin
+
+# Result dump files
+acquisition/*
+
 # C extensions
 *.so
 
